@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" type="image/x-icon"  href="/Tasks/images/main-icon.png">
+  <title>Static Webpage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f1ea; 
+    }
+
+    header {
+      background-color: #c4d4d6;
+      padding: 10px 20px;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    .section-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .section-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+
+    .section-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+    .section-4{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .left-content {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .left-content img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .left-content p {
+      margin: 0;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .menu-icon img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .headings{
+        margin-left: 30px;
+    }
+
+    .text-format{
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+    .text-format span{
+      width: 40%;
+    }
+
+     table,tr,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 5px;
+        }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="section-1">
+      <div class="left-content">
+        <img src="images/file.svg" alt="File Icon">
+        <p>Mockup of a Basic Educational Webpage</p>
+      </div>
+      <div class="menu-icon">
+        <img src="images/hamburger.png" alt="Menu Icon">
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-2">
+        <div class="headings">
+            <h1>&lt;h1&gt; Heading</h1>
+            <h2>&lt;h2&gt; Heading</h2>
+            <h3>&lt;h3&gt; Heading</h3>
+            <h4>&lt;h4&gt; Heading</h4>
+            <h5>&lt;h5&gt; Heading</h5>
+            <h6>&lt;h6&gt; Heading</h6>
+        </div>
+
+        <div style="border: 1px solid #e7e8e2; width: 15%; height: 250px; margin-left: 20px; text-align: center; background-color: #e7e8e2; border-radius: 10px;margin: 20px;">
+            <p style="font-size: 20px; margin: 10px;padding: 5px;"><strong>Responsive Image</strong></p>
+            <div style="border: 1px solid #d5d4d1;width: 60%; height: 150px; display: flex; align-items: center; justify-content: center; margin-left: 40px;background-color: #d5d4d1; border-radius: 10px;">
+                <span><strong>Image</strong> <br><small>Fallback text.</small></span>
+            </div>
+        </div>
+        
+    </div>
+  
+  </section>
+
+  <section>
+    <div class="section-3">
+        <div class="headings">
+             <h2>Paragraphs and Preformatted Text</h2>
+             <p>This is a paragraph of a text</p>
+        </div>
+        <div>
+            <h2>Table</h2>
+            <p style="background-color: #e6e6df;padding: 10px; text-align: center; border-radius: 10px;">picture example.com</p>
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-3">
+        <div class="headings">
+             <p style="background-color: #e6e6df;padding: 10px 66px 15px 10px; text-align: left; border-radius: 10px;">This is some Preformatted text.<br>It is displayed in fixed-width font.</p>
+        </div>
+        <div>
+            <h2>Anchor</h2>
+            <p>&lt;a&gt;Avoa example.com</p>
+        </div>
+    </div>
+  </section>
+
+   <section>
+    <div class="section-3">
+        <div class="headings">
+             <h2>Text Formating</h2>
+             <div class="text-format">
+                <span>&lt;b&gt; Bold text</span> <br><br>
+                <span>&lt;small&gt; Smaller text</span> 
+                <span>&lt;strong&gt; Important text</span><br><br>
+                <span>&lt;del&gt; Deleted text</span>
+                <span>&lt;i&gt; Italic text</span>
+                <span>&lt;ins&gt; Inserted text</span><br><br>
+                <span>&lt;em&gt; Emphasized text</span>
+                <span>&lt;sup&gt; Superscript text</span>
+             </div>
+              
+        </div>
+        <div>
+            <h2>Color Code</h2>
+            <p><span style="color: red;">RGB</span>&nbsp; (255,0,0)</p>
+            <p><span style="color: red;">HEX</span>&nbsp; #3498db</p>
+            <p><span style="color: red;">HSL</span>&nbsp; (Green <span style="color:Green">120,50%</span>)</p>  
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-3">
+        <div class="headings">
+             <h2>Semantic and Quotation Tags</h2>
+             <div class="text-format">
+                <span>This is a block quotation</span> <br><br>
+                <span>&lt;Abbr&gt; HTId</span> 
+                <span>&lt;q&gt; Inline quotation</span><br><br>
+                <span>1234 Example St:City,AB <br>12545</span>
+                <span>&lt;abbr&gt; Abr eypus</span>
+                <span></span>
+                <span>&lt;address&gt; 1254 Example St</span>
+                <span>&lt;cite&gt;A reference to a source</span>
+                <span>&lt;cito&gt;| epfpmaxE</span>
+                <span>&lt;bdo&gt; elpmaxE</span>
+             </div>
+              
+        </div>
+        <div>
+            <h2>Lists</h2>
+            <p>(1) First item </p>
+            <p>(2) Second item </p>
+            <p>(3) Third item </p>
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-4">
+        <div class="headings">
+             <h2>List</h2>
+             <p><b>On Ancod intrubes:</b></p>
+             <p>(1) First item </p>
+             <p>(2) Second item </p>
+             <p>(3) Third item </p>
+
+        </div>
+        <div>
+            <h2>Table</h2>
+            <table>
+              <tr>
+              <th>Row 1</th>
+              <th>Row 2</th>
+            </tr>
+
+            <tr>
+              <td>Row 1</td>
+              <td>Colspann</td>
+            </tr>
+            <tr>
+              <td>Row 2</td>
+              <td>T cot</td>
+            </tr>
+            </table>
+            
+        </div>
+
+        <div style="margin-right: 20px;">
+            <h2>Color Code</h2>
+            <p style="color: red;">RGB&nbsp; (255,0,0)</p>
+            <p  style="color: blue;">HEX&nbsp; #3498db</p>
+            <p><span style="color: green;">HSL</span>&nbsp; Green</p>  
+        </div>
+    </div>
+  </section>
+
+  
+
+  
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon"  href="/Tasks/images/main-icon.png">
+    <title>Static Webpage</title>
+    <style>
+       
+        .main-page {
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: space-between;
+        }
+
+        .main-page1 {
+            display: flex;
+            /* flex-direction: row; */
+            justify-content: space-between;
+
+        }
+
+        .main-page2 {
+            display: flex;
+            /* flex-direction: row; */
+            gap: 40px;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .list-style {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+           
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+    .headings{
+        margin-left: 30px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="main-page">
+        <header>
+            <a href="mailto:example@example.com" style="margin: 0; margin-bottom: 10px; text-decoration: none;">example@example.com</a>
+        </header>
+        <nav class="list-style">
+                <a href="Task3.html"   style=" text-decoration: none;">Home</a>
+                <a href="About-us.html" target="_blank"  style=" text-decoration: none;">About</a>
+                <a href="Services.html" target="_blank"  style=" text-decoration: none;">Services</a>
+                <a href="Content-Us.html" target="_blank" style=" text-decoration: none;">Content</a>
+                
+            
+        </nav>
+    </div>
+
+    <!-- Section-1  Start -->
+    <section >
+        <!-- Section-1 Table start -->
+        <div class="main-page1">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Marry</td>
+                    <td>30</td>
+                    <td>Canada</td>
+                </tr>
+
+                <tr>
+                    <td>Andy</td>
+                    <td>22</td>
+                    <td>UK</td>
+                </tr>
+
+            </table>
+
+            <!-- Section-1 Table End -->
+
+            <!-- Section-1 List Start -->
+            <div class="headings">
+                <h3 style="margin: 20px;">List item</h3>
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+
+            </div>
+        </div>
+
+        <div class="main-page1">
+            <ol>
+                <li>Ordered List</li>
+                <li>Lindore list</li>
+                <li>Third list</li>
+            </ol>
+
+
+            <div class="headings">
+                <h3 style="margin-left: 70px;">List list</h3>
+                <ol style="margin-left:50px;">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+
+            </div>
+        </div>
+
+        <!-- Section-1 List complete -->
+
+
+    </section>
+    <!-- Section-1  over -->
+
+    <!-- Section-2 Start -->
+    <div class="main-page1" style="display: flex; flex-direction: row;">
+        <section style="display: flex; flex-direction: column; gap: 15px;">
+            <a href="First-Page.html">This is a link</a>
+            <a href="Second-page.html" target="_blank">Target attribute</a>
+            <a href="images/photo-1494976388531-d1058494cdd8.jpeg" download>Download attribute</a>
+            <a href="Third-page.html" title="This is the main page">This is a link with a title</a>
+        </section>
+
+        <section style="display: flex; flex-direction: column;">
+            <p style="margin: 0;"><b>Formating a tags</b></p>
+            <br>
+            <p style="margin: 0;"><b>Bold text</b></p>
+            <br>
+            <p style="margin: 0;"><i>Italic text</i></p>
+            <br>
+            <p style="margin: 0;"><ins>Inserted text</ins> and <del>deleted text</del></p>
+        </section>
+    </div>
+
+    <!--Section-2 over -->
+
+    <!--Section 3 Start-->
+
+    <section>
+
+        <div class="main-page2">
+            <div>
+                <strong>Block-level element</strong>
+                <div>
+                    <p>Heading</p>
+                    <p>This is block-level element</p>
+                    <img src="images/cars.jpeg" alt="">
+                </div>
+            </div>
+
+            <div>
+                <strong>Inline element</strong>
+                <div>
+                    <p>This is a <span>inline element</span> within a <i>paragraph</i></p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Section 3 over-->
+
+    <!--Section 4 Start-->
+
+    <div style="display: flex; flex-direction: row;justify-content: space-between; flex-wrap: wrap; width: 100%;">
+        <div
+            style="border: 1px solid #a3d2f9; width: 20%; padding: 20px; text-align: center; font-size: 20px; background-color: #a3d2f9;">
+            Box 1
+        </div>
+
+        <div style="border: 1px solid #f0f1d1; width: 20%; padding: 20px; text-align: center; font-size: 20px; background-color: #f0f1d1;">
+            Box 2
+        </div>
+
+        <div style="border: 1px solid #f9ad9b; width: 20%; padding: 20px; text-align: center; font-size: 20px; background-color: #f9ad9b;">
+            Box 3
+        </div>
+    </div>
+
+
+</body>
+
+</html>
